@@ -1,0 +1,55 @@
+from tkinter import*
+from PIL import ImageTk, Image
+
+bg = Image.open("Bg.jpg")
+puz_bg = Image.open("Puz_bg.jpg")
+play = Image.open("Play.png")
+level = Image.open("Level.png")
+setting = Image.open("Setting.png")
+musoff = Image.open("Musoff.png")
+muson = Image.open("Muson.png")
+board = Image.open("Board.png")
+back = Image.open("Back.png")
+home = Image.open("Home.png")
+hint = Image.open("Hint.png")
+
+puz1 = Image.open("Puz1.png")
+
+level1 = Image.open("Level1.png")
+level2 = Image.open("Level2.png")
+level3 = Image.open("Level3.png")
+level4 = Image.open("Level4.png")
+level5 = Image.open("Level5.png")
+level6 = Image.open("Level6.png")
+level7 = Image.open("Level7.png")
+level8 = Image.open("Level8.png")
+level9 = Image.open("Level9.png")
+level10 = Image.open("Level10.png")
+
+bg = bg.resize((1040, 2115))
+puz_bg = puz_bg.resize((1040, 2115))
+play = play.resize((370,130))
+level = level.resize((100,100))
+setting = setting.resize((100, 100))
+muson = muson.resize((100, 100))
+musoff = musoff.resize((100, 100))
+board = board.resize((900,800))
+back = back.resize((100,100))
+home = home.resize((100,100))
+hint = hint.resize((100,100))
+next = back.rotate(180)
+puz1 = puz1.resize((600,400))
+
+level1 = level1.resize((300,130))
+level2 = level2.resize((300,130))
+level3 = level3.resize((300,130))
+level4 = level4.resize((300,130))
+level5 = level5.resize((300,130))
+level6 = level6.resize((300,130))
+level7 = level7.resize((300,130))
+level8 = level8.resize((300,130))
+level9 = level9.resize((300,130))
+level10 = level10.resize((300,130))
+		
+listpic = {"puz_bg" : puz_bg, "bg" : bg, "play" : play, "level" : level, "setting" : setting, "muson" : muson, "musoff" : musoff, "board" : board, "back" : back, "home" : home, "hint" : hint, "level1" : level1, "level2" : level2, "level3" : level3, "level4" : level4, "level5" : level5, "level6" : level6, "level7" : level7, "level8" : level8, "level9" : level9, "level10" : level10, "puz1" : puz1, "next":next }
+
